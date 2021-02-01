@@ -1,0 +1,16 @@
+{
+  "name": "scrape-the-web-with-cj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "getWuzzuf": "nodemon getJobsFromWuzzuf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "nodemon": "^2.0.7"
+  }
+}
